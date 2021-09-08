@@ -4,15 +4,17 @@
   "author": "IhoraDev",
   "description": "Primitive slot mashine using Pixi.js and Gulp",
   "private": true,
+  "homepage": "https://ihoradev.github.io/slot-mashine",
   "scripts": {
     "run": "gulp dev",
-    "deploy": "gulp build",
+    "deploy": "gh-pages -d dist",
     "test": "babel-node spec/run.js"
   },
   "dependencies": {
     "@pixi/filter-color-replace": "^4.1.3",
     "bootstrap": "^5.1.1",
     "eventemitter3": "^4.0.7",
+    "gh-pages": "^3.2.3",
     "jquery": "^3.6.0",
     "jquery-ui": "^1.12.1",
     "k8w-pixi-tween": "^0.7.6",
